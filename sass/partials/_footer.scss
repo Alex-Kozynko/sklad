@@ -28,8 +28,22 @@
 		}
 	}
 	.adress-block {
-		padding-left: 85px;
-		background: url(../img/destination.png) 0 50% no-repeat;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		width: 220px;
+		.item {
+			display: flex;
+			align-items: center;
+			color: #fff;
+			width: 100px;
+			&:nth-of-type(1), &:nth-of-type(2) {
+				margin-bottom: 15px;
+			}
+			img {
+				margin-right: 10px;
+			}
+		}
 		.adress {
 			color: #ffffff;
 			font-size: 18px;
