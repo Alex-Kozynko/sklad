@@ -66,7 +66,27 @@
 			line-height: 22px;
 		}
 	}
-
+	.nav {
+		max-width: 1760px;
+		width: 92%;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 20px auto 0;
+		.menu {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			li {
+				a {
+					text-transform : uppercase;
+					color: #fff;
+					font-size : 25px;
+					font-family: "Open Sans";
+					line-height : 40px;
+				}
+			}
+		}
+	}
 	.title {
 		color: #ffffff;
 		font-family: "Roboto";

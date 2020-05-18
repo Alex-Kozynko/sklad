@@ -1,8 +1,24 @@
 /*********************************************\
 		Desktop First Method
 \*********************************************/
+@media only screen and (max-width : 1500px) {
+	.header {
+		.nav {
+			width : 100%;
+			.menu {
+				li {
+					a {
+						font-size : 20px;
+					}
+				}
+			}
+		}
+	}
+
+}
 
 @media only screen and (max-width : 1325px) {
+
 	.sec6 .slider {
 		width: 95%;
 		margin: 0 auto;
@@ -61,6 +77,18 @@
 
 
 @media only screen and (max-width : 1170px) {
+	.header {
+		.nav {
+			width : 100%;
+			.menu {
+				li {
+					a {
+						font-size : 12px;
+					}
+				}
+			}
+		}
+	}
 	.sec8 {
 		.row {
 			flex-wrap: wrap;
@@ -102,7 +130,7 @@
 			}
 		}
 		.topline {
-			margin-bottom: 70px;
+			//margin-bottom: 70px;
 		}
 		.dyga {
 			display: none;
@@ -111,6 +139,7 @@
 			.phone {
 				font-size: 20px;
 				line-height: 24px;
+				margin: 0 6px;
 			}
 		}
 		.adress-block {
@@ -605,6 +634,19 @@
 
 // STYLES FOR MOBILES //
 @media only screen and (max-width : 750px) {
+	.header {
+		.nav {
+			width : 100%;
+			.menu {
+				overflow: auto;
+				li {
+					a {
+						font-size : 10px;
+					}
+				}
+			}
+		}
+	}
 	.container, .container-xl {
 		max-width: 98% !important;
 	}
@@ -646,7 +688,7 @@
 		.topline {
 			padding-top: 10px;
 			padding-bottom: 10px;
-			margin-bottom: 30px;
+			//margin-bottom: 30px;
 		}
 		.logo {
 			img {
@@ -654,10 +696,11 @@
 			}
 		}
 		.phones-block {
-			padding-left: 25px;
+			//padding-left: 25px;
 			background-size: auto 100%;
 			.phone {
 				font-size: 18px;
+				margin: 0 auto;
 				line-height: 22px;
 				&:not(:first-of-type) {
 					display: none;
