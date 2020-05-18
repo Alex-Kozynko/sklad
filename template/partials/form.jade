@@ -1,0 +1,17 @@
+form.standart-form#form1(accept-charset="utf-8" onsubmit="return validate(form1);" action="" method="post")
+	p.form-title Заполните простую форму
+	input.name(name="name", type="text", placeholder="Как вас зовут?", required="")
+	input.phone#phone(name="phone", type="text", required="")
+	//- input.email(name="email", type="email", placeholder="Введите Ваш e-mail", required="")
+	.hidden-inputs.
+		<input type="hidden" name="plan" value="">
+		<input type="hidden" name="sum" value="">
+		<input type="hidden" name="sum_usd" value="">
+		<input type="hidden" name="product" value="">
+		<input type="hidden" name="utm_source" value="">
+		<input type="hidden" name="utm_medium" value="">
+		<input type="hidden" name="utm_term" value="">
+		<input type="hidden" name="utm_campaign" value="">
+		<input type="hidden" name="country" value="">
+	button.btn.subm.hvr-grow-shadow(type="submit") позвоните мне
+	p.bottom-text Ваша 100% конфиденциальность <br>Мы не передаем данные 3-м лицам

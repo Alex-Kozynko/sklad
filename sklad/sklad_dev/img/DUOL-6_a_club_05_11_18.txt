@@ -1,0 +1,39 @@
+Формы по таску https://geniusm.atlassian.net/browse/DUOL-6:
+
+Форма для создания заявки webinar (Action) 
+
+<form action="https://pay.duolife.monochrome.me/a_club" method="post">
+ 			  <input id='email' class='email' name='email' type='text' placeholder='Ваш Основной E-mail' required> <br>
+              <input id='name' class='name'  name='name' type='text' placeholder='Ваше имя' required><br>
+       		  <input id="phone" type="text"  name="phone" class="last1" placeholder='Ваш номер'><br>
+			  <input type="hidden" name="plan" value="standard" />
+			  <input type="hidden" name="sum" value="0" />
+			  <input type="hidden" name="product" value="a_club" />
+			  <input type="hidden" name="utm_source" value="g-rem" />
+			  <input type="hidden" name="utm_campaign" value="test_campaign" />
+			  <input type="hidden" name="utm_term" value="test_term" />
+			  <input type="hidden" name="utm_medium" value="test_medium" />
+			
+              <input type='submit' value='Принять Участие'>
+</form>		
+			  
+//---------------------------------------------------------------
+			  			  
+Форма для создания вопроса (AJAX) 
+
+<form action="https://pay.duolife.monochrome.me/question" method="post">
+ 			  <input id='email' class='email' name='email' type='text' placeholder='Ваш Основной E-mail' required> <br>
+              <input id='name' class='name'  name='name' type='text' placeholder='Ваше имя' required><br>
+       		  <input id="phone" type="text"  name="phone" class="last1" placeholder='Ваш номер'><br>
+			  <input type="hidden" name="plan" value="standard" />
+			  <input type="hidden" name="sum" value="0" />
+			  <input type="hidden" name="product" value="a_club" />
+			  <input type="hidden" name="utm_source" value="g-rem" />
+			  <input type="hidden" name="utm_campaign" value="test_campaign" />
+			  <input type="hidden" name="utm_term" value="test_term" />
+			  <input type="hidden" name="utm_medium" value="test_medium" />
+			
+              <input type='submit' value='Принять Участие'>
+</form>			
+
+//---------------------------------------------------------------			  	  

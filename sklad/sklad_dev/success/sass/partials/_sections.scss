@@ -1,0 +1,126 @@
+.success-sec1 {
+	padding-top: 10vh;
+	overflow: hidden;
+	position: relative;
+	background: url(../img/success.jpg) 50% 0 no-repeat;
+	background-size: cover;
+	.title {
+		color: #000000;
+		font-family: Roboto;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 53px;
+		margin-bottom: 20px;
+	}
+	.text {
+		padding-top: 40px;
+		padding-bottom: 30px;
+		color: #161616;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 24px;
+		max-width: 670px;
+		margin-bottom: 60px;
+		position: relative;
+		z-index: 1;
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			// background-color: rgba(#eef0f4, 0.88);
+			background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(254, 254, 255, 0) 5%, #eef2fa 79%, #ecf1fa 86%);
+			height: 100%;
+			width: 1387px;
+			left: -327px;
+			top: 0;
+			z-index: -1;
+		}
+		b {
+			font-weight: 700;
+		}
+	}
+	.inner {
+		padding-left: 450px;
+		position: relative;
+	}
+	.phones {
+		margin-bottom: 40px;
+	}
+	.phone {
+		color: #161616;
+		font-family: "Roboto";
+		font-size: 22px;
+		font-weight: 900;
+		line-height: 40px;
+		display: inline-block;
+	}
+	.phone1 {
+		padding-right: 15px;
+		margin-right: 20px;
+		border-right: 3px solid #efab37;
+	}
+	.danil-block {
+		padding-top: 19px;
+		padding-bottom: 17px;
+		border-radius: 0 10px 0 0;
+		background-color: #efab37;
+		padding-left: 353px;
+		transform: translateX(-353px);
+		.name {
+			color: #000000;
+			font-family: "Open Sans";
+			font-size: 20px;
+			font-weight: 900;
+			line-height: 26px;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+		}
+		.prof {
+			color: #000000;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 26px;
+		}
+	}
+	.photo {
+		position: absolute;
+		width: 482px;
+		height: 762px;
+		background: url(../img/danil.png) 50% 0 no-repeat;
+		top: 0;
+		left: -70px;
+		z-index: 1;
+	}
+}
+
+.success-sec2 {
+	padding-top: 100px;
+	text-align: center;
+	background: url(../img/decor-success.svg) 0 450px no-repeat;
+	padding-bottom: 75px;
+	.sec-title {
+		color: #000000;
+		font-family: Roboto;
+		font-size: 41px;
+		font-weight: 700;
+		line-height: 53px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		span {
+			color: #2c6dff;
+		}
+	}
+	.desc {
+		color: #000000;
+		font-family: Roboto;
+		font-size: 28px;
+		font-weight: 500;
+		line-height: 53px;
+		margin-bottom: 80px;
+	}
+	.gallery {
+		img {
+			margin-bottom: 25px;
+		}
+	}
+}

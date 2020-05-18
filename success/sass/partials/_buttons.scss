@@ -1,0 +1,32 @@
+.subm {
+	cursor: pointer;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	transition: all 0.3s linear;
+	margin-top: 15px;
+	&:hover,
+	&:focus {
+		transform: scale(1.02);
+	}
+}
+
+.btn {
+	box-shadow: 0 13px 20px rgba(0, 0, 0, 0.26);
+	border-radius: 7px;
+	background-color: #FFAD24;
+	line-height: 72px;
+	width: 100%;
+	max-width: 331px;
+	text-align: center;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.36px;
+}
+
+.package-btn {
+	max-width: 430px;
+}

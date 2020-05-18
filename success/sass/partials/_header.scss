@@ -1,0 +1,126 @@
+.header {
+	background: url(../img/header.jpg) 50% 0 no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	overflow: hidden;
+	.topline {
+		padding-top: 25px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid rgba(#fff,0.17);
+		margin-bottom: 14vh;
+		.row {
+			max-width: 1760px;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 0 auto;
+		}
+	}
+	.phones-block {
+		padding-left: 55px;
+		background: url(../img/phone-book.png) 0 50% no-repeat;
+		.phone {
+			display: block;
+			color: #ffffff;
+			font-size: 23px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+	}
+	.adress-block {
+		padding-left: 85px;
+		background: url(../img/destination.png) 0 50% no-repeat;
+		.adress {
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 25px;
+			letter-spacing: 0.72px;
+			margin-bottom: 10px;
+		}
+		.metro {
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 22px;
+		}
+	}
+
+	.title {
+		color: #ffffff;
+		font-family: "Roboto";
+		font-size: 74px;
+		font-weight: 900;
+		line-height: 86px;
+		text-transform: uppercase;
+		letter-spacing: 2.96px;
+		margin-bottom: 35px;
+		b {
+			position: relative;
+			.decor1 {
+				content: '';
+				display: block;
+				position: absolute;
+				width: 277px;
+				height: 4px;
+				background-color: #2c6dff;
+				left: 0;
+				bottom: -18px;
+			}
+			.decor2 {
+				content: '';
+				display: block;
+				position: absolute;
+				width: 320px;
+				height: 4px;
+				background-color: #2c6dff;
+				left: calc(100% - 10px);
+				bottom: -85px;
+				transform: rotate(25deg);
+			}
+		}
+	}
+	.desc {
+		color: #ffffff;
+		font-size: 23px;
+		font-weight: 700;
+		line-height: 37px;
+		margin-bottom: 60px;
+		max-width: 650px;
+	}
+	.info-block {
+		width: 454px;
+		height: 467px;
+		background: url(../img/info-block-bg.svg) 50% no-repeat;
+		padding: 50px;
+		.info {
+			box-shadow: 1px 27px 20px rgba(0, 0, 0, 0.31);
+			background-color:rgba(#fff, .17);
+			border-radius: 50%;
+			width: 373px;
+			height: 373px;
+			padding-top: 140px;
+			padding-left: 30px;
+			li {
+				color: #ffffff;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 24px;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				padding-left: 27px;
+				position: relative;
+				&:before {
+					content: '';
+					display: block;
+					background-color: #ffffff;
+					width: 14px;
+					height: 14px;
+					border-radius: 50%;
+					position: absolute;
+					left: 0;
+					top: calc(50% - 7px);
+				}
+			}
+		}
+	}
+}

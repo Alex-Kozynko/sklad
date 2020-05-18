@@ -1,0 +1,75 @@
+.footer {
+	background-color: #303030;
+	.inner {
+		max-width: 1760px;
+		margin: 0 auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.fop {
+		color: #e3e3e3;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 18px;
+	}
+	.phones-block {
+		padding-left: 55px;
+		background: url(../img/phone-book.png) 0 50% no-repeat;
+		.phone {
+			display: block;
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+	}
+	.adress-block {
+		padding-left: 85px;
+		background: url(../img/destination.png) 0 50% no-repeat;
+		.adress {
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 25px;
+			letter-spacing: 0.72px;
+			margin-bottom: 10px;
+		}
+		.metro {
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 22px;
+		}
+	}
+	.studio-block {
+		.text {
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 20px;
+			letter-spacing: 0.72px;
+			color: #fff;
+			vertical-align: top;
+			margin-bottom: 5px;
+			display: block;
+		}
+		.stuido-logo {
+			display: block;
+		}
+		img {
+			height: 40px;
+		}
+	}
+	.copy {
+		color: #b1b1b1;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 26px;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: #292929;
+		border-top: 1px solid rgba(#e8e8e8, 0.1);
+	}
+}
